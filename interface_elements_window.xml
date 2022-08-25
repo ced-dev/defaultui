@@ -1,0 +1,564 @@
+<?xml version="1.0"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>interface_elements_window</Name>
+        <WindowId>interface_elements</WindowId>
+        <CloseButton>true</CloseButton>
+        <MoveButton>true</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>20</TitleWidth>
+        <TitleHeight>269</TitleHeight>
+        <Width>415</Width>
+        <Height>269</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <ImageAreaDef>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>bsbs</TemplateName>
+        </ImageAreaDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>281</X>
+                <Y>95</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tab2</TemplateName>
+            <Label>LVL XP</Label>
+            <OnClickEvent>ToggleFloatLevelXP</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>9</X>
+                <Y>95</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tab2</TemplateName>
+            <Label>HP</Label>
+            <OnClickEvent>ToggleCustom0</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>9</X>
+                <Y>113</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tab2</TemplateName>
+            <Label>END</Label>
+            <OnClickEvent>ToggleCustom1</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>72</X>
+                <Y>113</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tab2</TemplateName>
+            <Label>POWER</Label>
+            <OnClickEvent>ToggleCustom2</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>72</X>
+                <Y>95</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tab2</TemplateName>
+            <Label>TARGET</Label>
+            <OnClickEvent>ToggleFloatTarget</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>281</X>
+                <Y>113</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tab2</TemplateName>
+            <Label>CL XP</Label>
+            <OnClickEvent>ToggleFloatChampXP</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>344</X>
+                <Y>95</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tab2</TemplateName>
+            <Label>RP XP</Label>
+            <OnClickEvent>ToggleFloatRealmXP</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>344</X>
+                <Y>113</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tab2</TemplateName>
+            <Label>STATUS</Label>
+            <OnClickEvent>ToggleCustom10</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>281</X>
+                <Y>131</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tab2</TemplateName>
+            <Label>CLOCK</Label>
+            <OnClickEvent>ToggleClock</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>281</X>
+                <Y>149</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tab2</TemplateName>
+            <Label>COMP</Label>
+            <OnClickEvent>ToggleCompass</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>145</X>
+                <Y>113</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tab2</TemplateName>
+            <Label>RESIST</Label>
+            <OnClickEvent>ToggleCustom4</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>208</X>
+                <Y>113</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tab2</TemplateName>
+            <Label>STATS</Label>
+            <OnClickEvent>ToggleCustom3</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>145</X>
+                <Y>131</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tab2</TemplateName>
+            <Label>QUIVER</Label>
+            <OnClickEvent>ToggleQuiver</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>145</X>
+                <Y>149</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tab2</TemplateName>
+            <Label>PULSE</Label>
+            <OnClickEvent>ToggleCustom5</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>72</X>
+                <Y>149</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tab2</TemplateName>
+            <Label>PET</Label>
+            <OnClickEvent>ToggleMiniPet</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>344</X>
+                <Y>131</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tab2</TemplateName>
+            <Label>PING</Label>
+            <OnClickEvent>TogglePerformanceMeter</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>281</X>
+                <Y>189</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tab2</TemplateName>
+            <Label>MAP</Label>
+            <OnClickEvent>ToggleMap</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>344</X>
+                <Y>189</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tab2</TemplateName>
+            <Label>REALM</Label>
+            <OnClickEvent>ShowWarMap</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>9</X>
+                <Y>189</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tab2</TemplateName>
+            <Label>CMD</Label>
+            <OnClickEvent>ToggleCommandWindow</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>72</X>
+                <Y>189</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tab2</TemplateName>
+            <Label>RR/INFO</Label>
+            <OnClickEvent>ToggleCustom8</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>145</X>
+                <Y>95</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tab2</TemplateName>
+            <Label>CONC</Label>
+            <OnClickEvent>ToggleConcentration</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>72</X>
+                <Y>131</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tab2</TemplateName>
+            <Label>HHELPER</Label>
+            <OnClickEvent>ToggleCustom7</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>208</X>
+                <Y>207</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tab2</TemplateName>
+            <Label>QUEST</Label>
+            <OnClickEvent>Journal</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>208</X>
+                <Y>95</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tab2</TemplateName>
+            <Label>BUFFS</Label>
+            <OnClickEvent>ToggleGroupBuffs</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>9</X>
+                <Y>149</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tab2</TemplateName>
+            <Label>SMALL HH</Label>
+            <OnClickEvent>ToggleMiniGroup</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>145</X>
+                <Y>207</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tab2</TemplateName>
+            <Label>ML</Label>
+            <OnClickEvent>ToggleMasterLevel</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>9</X>
+                <Y>243</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tab2</TemplateName>
+            <Label>EDEN</Label>
+            <OnClickEvent>ToggleCustom12</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>73</X>
+                <Y>243</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tab2</TemplateName>
+            <Label>MENUBAR</Label>
+            <OnClickEvent>ToggleMenuBar</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>208</X>
+                <Y>131</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tab2</TemplateName>
+            <Label>TBL.RESIST</Label>
+            <OnClickEvent>ToggleCustom14</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>208</X>
+                <Y>149</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tab2</TemplateName>
+            <Label>CASH</Label>
+            <OnClickEvent>ToggleCustom13</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>9</X>
+                <Y>207</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tab2</TemplateName>
+            <Label>FRIENDS</Label>
+            <OnClickEvent>Friends</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>72</X>
+                <Y>207</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tab2</TemplateName>
+            <Label>SOCIAL</Label>
+            <OnClickEvent>Community</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>145</X>
+                <Y>189</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tab2</TemplateName>
+            <Label>CONFIG</Label>
+            <OnClickEvent>ShowKeyboardConfig</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>9</X>
+                <Y>131</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tab2</TemplateName>
+            <Label>SUMMARY</Label>
+            <OnClickEvent>ToggleSummary</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>72</X>
+                <Y>225</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tab2</TemplateName>
+            <Label>CRAFTING</Label>
+            <OnClickEvent>ToggleCustom9</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>208</X>
+                <Y>189</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tab2</TemplateName>
+            <Label>OPTIONS</Label>
+            <OnClickEvent>ToggleOptions</OnClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <Position>
+                <X>9</X>
+                <Y>225</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_tab2</TemplateName>
+            <Label>BONUSES</Label>
+            <OnClickEvent>ToggleBonuses</OnClickEvent>
+        </ButtonDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>
